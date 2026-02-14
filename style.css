@@ -1,0 +1,142 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@200;300;400;600;700;800;900&display=swap');
+
+
+*{
+
+    font-family:poppins, sans-serif;
+    margin:0;
+    padding:0;
+
+}
+body{
+    background-color: black;
+}
+.main{
+    /* width: 100vw; */
+    height: 80vh;
+    background-image:url(assets/images/bg.jpg);
+    position: relative;
+    background-position: center  center;
+    background-repeat: no-repeat;
+    background-size:max(1200px) 100vw;
+}
+.main .box{
+    height: 80vh;
+    width:100%;
+    background-color: black;
+    opacity: 0.60;
+    position: absolute;
+    top:0;
+    /* left:0; */
+}
+nav{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    margin:auto;
+    /* width: 100%; */
+    height: 10vh;
+    
+    
+}
+logo.svg{
+    color: red;
+}
+span img{
+     width: 100px;
+     color: red;
+     position: relative;
+    z-index: 10;
+
+}
+.flex button{
+   
+    position: relative;
+    z-index: 10;
+    
+
+}
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:10px;
+}
+.text{
+    height: calc(100% - 10vh);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    position: relative;
+    z-index: 10;
+    font-family: 'Martel Sans', sans-serif;
+    gap: 20px;
+    padding: 0 20px;
+}
+/* .text span{
+    color: white;
+    position: relative;
+    z-index: 10;
+} */
+ 
+.text >:nth-child(1){
+    font-weight: 900px;
+    font-size: 45px;
+}
+.text >:nth-child(2){
+    font-size: 20px;
+    font-weight: 500px;
+
+}
+.text >:nth-child(3){
+    font-size: 16px;
+    font-weight: 400px;
+}
+.sepration{
+    
+    height: 11px;
+    background-color: gray;
+    
+}
+.btn{
+    background-color: transparent;
+    padding:7px 8px;
+    font-weight:bolder;
+    color: white;
+    /* border:1px solid white; */
+    border-radius:5px;
+    font-size:15px;
+}
+
+.btn-red-sm{
+    background-color:red;
+    padding:7px 15px;
+    font-size:15px;
+    border-radius:5px;
+}
+
+.btn-red{
+    background-color:red;
+    padding:13px 15px;
+    font-size:20px;
+    border-radius:5px;
+}
+.main input{
+     background-color:rgb(25, 25, 25);
+    border:rgb(243, 228, 228, 0.5);
+     opacity: 0.8;
+     color: white;
+     padding:17px 117px 17px 18px;;
+     font-size:12px;
+     border-radius:5px;
+}
+.text-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:10px;
+    
+}
